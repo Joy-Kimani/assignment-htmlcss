@@ -1,0 +1,96 @@
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    margin: 10px;
+    font-weight: 100;
+    color: Blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 16px;
+
+}
+p{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(199, 212, 212);
+    font-weight:50;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.container{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:black ;
+    padding: 10px;
+    margin: 20px;
+    width: 600px;
+    justify-content: center;
+    align-content: center;
+}
+.contactus{
+    font-size: 20px;
+    justify-content: flex-start;
+}
+.name{
+    margin: 10px;
+    padding: 10px;
+}
+.email{
+    margin: 10px;
+    padding: 10px
+}
+.submitbutton{
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 90%;
+}
+
+input[type=submit]{
+    background-color: green ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label{
+    margin-bottom: 10px;    
+}
+
+input[type="email"],
+input[type="text"],
+textarea{
+    padding: 5px;
+    border: 1.5px solid;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+textarea{
+    resize:vertical
+    
+}
